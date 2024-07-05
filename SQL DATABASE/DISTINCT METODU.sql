@@ -1,0 +1,18 @@
+--DISTINCT METODU
+
+
+SELECT * FROM Kitap
+
+INSERT INTO Kitap values(26, 'Deli Kurt', 'Nihal Atsýz', 325, 140, '2016-08-26', 'Güneþ')
+
+SELECT DISTINCT * FROM Kitap
+
+SELECT DISTINCT KitapAd FROM Kitap
+
+SELECT DISTINCT KitapYayýnEvi FROM Kitap
+
+SELECT DISTINCT KitapYazar FROM Kitap
+
+SELECT DISTINCT KitapSayfa FROM Kitap
+
+SELECT DISTINCT KitapFiyat FROM Kitap

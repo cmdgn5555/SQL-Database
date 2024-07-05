@@ -1,0 +1,16 @@
+--ARÝTMETÝK OPERATÖRLER
+
+
+SELECT 15 + 10 AS TOPLAM, 15 - 10 AS FARK, 30 * 10 AS ÇARPIM, 30 / 10 BÖLÜM
+
+SELECT * FROM Kitap2
+
+SELECT KitapAd, KitapFiyat, KitapFiyat + 10 AS YENÝ_FÝYAT FROM Kitap2
+
+SELECT * FROM Kitap2
+
+SELECT KitapAd, KitapSayfa, KitapSayfa - 100 AS YENÝ_KÝTAP_SAYFA_SAYISI FROM Kitap2
+
+SELECT * FROM Kitap2
+
+SELECT KitapAd + ' - ' + KitapYazar AS BÝRLEÞTÝR FROM Kitap2
