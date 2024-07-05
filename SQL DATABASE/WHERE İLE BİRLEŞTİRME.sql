@@ -1,4 +1,4 @@
---WHERE İLE BİRLEŞTİRME
+--WHERE ÃLE BÃRLEÅ¢TÃRME
 
 
 SELECT * FROM Kitap
@@ -10,7 +10,7 @@ SELECT Kitap2.KitapNo FROM Kitap, Kitap2 WHERE Kitap.KitapAd = Kitap2.KitapAd
 SELECT * FROM Kitap
 SELECT * FROM Kitap2
 
-SELECT Kitap2.KitapYazar, Kitap.KitapYazar FROM Kitap, Kitap2 WHERE Kitap.KitapYayınEvi = Kitap2.KitapYayınEvi
+SELECT Kitap2.KitapYazar, Kitap.KitapYazar FROM Kitap, Kitap2 WHERE Kitap.KitapYayÃ½nEvi = Kitap2.KitapYayÃ½nEvi
 
 SELECT * FROM Kitap
 SELECT * FROM Kitap2
